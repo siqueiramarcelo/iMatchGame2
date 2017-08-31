@@ -56,7 +56,7 @@ NSTimer *updateDisplayInterval;
     //will store references to the available images
     self.imagesReferenceToPick = [[NSMutableArray alloc] initWithCapacity:totalCards];
     
-    //will store all cards(buttons)
+    //will store all cards(buttons) 
     self.allCardButtons = [[NSMutableArray alloc] initWithCapacity:totalCards / 2];
     
     [self restartGame:self];
